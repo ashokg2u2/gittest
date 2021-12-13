@@ -65,9 +65,8 @@ public class FileSum {
         for (Map.Entry<String, Long> entry : sorted) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
-        System.out.println("Number of lines in file = " + stringJavaRDD.count());
-
         // Test Comment
+        System.out.println("Number of lines in file test= " + stringJavaRDD.count());
     }
 
     public static String extractTitle(String videoLine){
